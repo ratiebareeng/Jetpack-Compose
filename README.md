@@ -14,28 +14,30 @@ Jetpack Compose is built around composable functions. These functions let you de
 
 To create a composable function, just add the **@Composable** annotation to the function name.
 
-            @Preview
             @Composable
-            fun PreviewNewsStory()  {
-                NewsStory()
+            fun Greeting(name: String) {
+                Text("Hello $name!")
             }
 
 **Lesson 2: Layouts**
 
 UI elements are hierarchical, with elements contained in other elements. In Compose, you build a UI hierarchy by calling composable functions from other composable functions.
 
+            @Preview
             @Composable
-            fun Greeting(name: String) {
-                Text("Hello $name!")
+            fun PreviewNewsStory()  {
+                NewsStory()
             }
+            
 
 **Lesson 3: Material design**
 
 Compose is built to support material design principles. Many of its UI elements implement material design out of the box. In this lesson, you'll style your app with material widgets.
-
-            modifier = Modifier
-                            .height(180.dp)
-                            .fillMaxWidth()
-                            .clip(shape = RoundedCornerShape(4.dp))
+            Image(...
+            modifier = Modifier.height(180.dp)
+                .fillMaxWidth()
+                .clip(shape = RoundedCornerShape(4.dp)),
+            ...)
+        
 
 
