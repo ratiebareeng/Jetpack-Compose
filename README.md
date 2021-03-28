@@ -33,6 +33,7 @@ UI elements are hierarchical, with elements contained in other elements. In Comp
 **Lesson 3: Material design**
 
 Compose is built to support material design principles. Many of its UI elements implement material design out of the box. In this lesson, you'll style your app with material widgets.
+            
             Image(...
             modifier = Modifier.height(180.dp)
                 .fillMaxWidth()
