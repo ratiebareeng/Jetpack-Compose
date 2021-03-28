@@ -25,8 +25,8 @@ UI elements are hierarchical, with elements contained in other elements. In Comp
 
             @Preview
             @Composable
-            fun PreviewNewsStory()  {
-                NewsStory()
+            fun PreviewGreeting() {
+                Greeting("Ratie")
             }
             
 
